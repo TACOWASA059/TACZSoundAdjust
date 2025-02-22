@@ -69,6 +69,8 @@ public class GunSoundInstanceMixin {
             return taczSoundAdjust$tryAlternative(namespace, path.replace("shoot_3p", "shoot"));
         } else if (path.endsWith("shoot")) {
             return taczSoundAdjust$tryAlternative(namespace, path.replace("shoot", "shoot_3p"));
+        } else if (path.endsWith("silence")){
+            return taczSoundAdjust$tryAlternative(namespace, path.replace("silence", "silence_3p"), path.replace("silence", "shoot"),path.replace("silence", "shoot_3p"));
         }
 
         return location;

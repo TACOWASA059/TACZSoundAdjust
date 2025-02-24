@@ -34,6 +34,7 @@ public class GunSoundInstanceMixin {
 
     @Inject(method = "<init>", at = @At(value = "TAIL"))
     private void onInit(SoundEvent soundEvent, SoundSource source, float volume, float pitch, Entity entity, int soundDistance, ResourceLocation registryName, boolean mono, CallbackInfo ci){
+        if(registryName == null) return;
 
         String nameSpace = registryName.getNamespace();
         String path = registryName.getPath();

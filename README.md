@@ -18,6 +18,7 @@ tacz-1.20.1-1.1.4-hotfix-all.jar
 そのため、本MODのソースコードは GPL-3.0 の要件に従い公開されており、再配布時にも GPL-3.0 の条件を遵守する必要があります。
 
 **GPL-3.0 の全文は `LICENSE` ファイルに含まれています。**
+
 ---
 ## License
 This mod is a derivative mod based on [Timeless and Classics Guns Zero (TACZ)](https://github.com/MCModderAnchor/TACZ).  

@@ -10,3 +10,11 @@ forge 1.20.1
 tacz-1.20.1-1.1.4-hotfix-all.jar
 ```
 
+## ライセンス
+このMODは、[Timeless and Classics Guns Zero (TACZ)](https://github.com/MCModderAnchor/TACZ) を基にした派生MODです。  
+本MODは **GPL-3.0** に従い、元のプロジェクトと同じライセンスで配布されます。
+
+本MODは Mixin を使用して `TACZ` のコードの一部を変更しています。  
+そのため、本MODのソースコードは GPL-3.0 の要件に従い公開されており、再配布時にも GPL-3.0 の条件を遵守する必要があります。
+
+**GPL-3.0 の全文は `LICENSE` ファイルに含まれています。**
